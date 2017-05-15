@@ -28,8 +28,7 @@ class NavBar extends Component {
 
                                 <li>
                                     <Link to={'/Profile'}>
-                                        <i className="material-icons">person</i>
-                                        <p className="hidden-lg hidden-md">Profile</p>
+                                        Nombre del usuario
                                     </Link>
                                 </li>
                                 <li className="dropdown">

@@ -9,14 +9,14 @@ class Footer extends Component{
                     <nav className="pull-left">
                         <ul>
                             <li>
-                                <a href="#">
+                                <Link to="/Home">
                                     Brinx
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#">
+                                <Link to="/Documentation">
                                     Ayuda
-                                </a>
+                                </Link>
                             </li>
                             <li>
                                 <a href="#">
@@ -24,9 +24,9 @@ class Footer extends Component{
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <Link to="#">
                                     Soporte
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </nav>

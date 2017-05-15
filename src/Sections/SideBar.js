@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
+import Logo_Brinx from './../../public/img/logo/brinx.svg'
+import X_logo from './../../public/img/logo/x.svg'
 
 class SideBar extends Component {
     render(){
@@ -9,12 +11,14 @@ class SideBar extends Component {
                 <div className="sidebar" data-background-color="green">
                     <div className="logo">
                         <a href="#">
-                            <img className="img-responsive img-logo" src={require('./../../public/img/logo/brinx.svg')} alt="Brinx Admin"/>
+                            {/*<img className="img-responsive img-logo" src={require('./../../public/img/logo/brinx.svg')} alt="Brinx Admin"/>*/}
+                            <img className="img-responsive" src={Logo_Brinx} alt="Brinx Administrator"/>
                         </a>
                     </div>
                     <div className="logo logo-mini">
                         <a href="#">
-                            <img className="img-responsive" src={require('./../../public/img/logo/x.svg')} alt="X de Brinx"/>
+                            {/*<img className="img-responsive" src={require('./../../public/img/logo/x.svg')} alt="X de Brinx"/>*/}
+                            <img className="img-responsive" src={X_logo} alt="X de brinx Administrator"/>
                         </a>
                     </div>
                     <div className="sidebar-wrapper">
@@ -115,7 +119,7 @@ class SideBar extends Component {
                                 </div>
                             </li>
                             <li>
-                                <Link to="">
+                                <Link to="/Calendar">
                                     <i className="material-icons icons-white">date_range</i>
                                     <p className="icons-white">Calendario
                                     </p>

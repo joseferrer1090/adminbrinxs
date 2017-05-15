@@ -11,6 +11,7 @@ import Help_Faq from './Components/Help/Help_Faq'
 import Lessons from './Components/Lessons/Lessons'
 import Activities from './Components/Activities/Activities'
 import Documentation from './Components/Documentation/Documentation'
+import CalendarActivity from './Components/CalendarActivity/CalendarActivity'
 
 class App extends Component {
 
@@ -29,6 +30,7 @@ class App extends Component {
                     <Route exact path="/Lessons" component={Lessons}/>
                     <Route exact path="/Activities" component={Activities}/>
                     <Route exact path="/Documentation" component={Documentation}/>
+                    <Route exact path="/Calendar" component={CalendarActivity}/>
                 </div>
 
             </HashRouter>

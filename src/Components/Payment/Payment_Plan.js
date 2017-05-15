@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
+import Plan_one from './../../../public/img/card-2.jpg'
+import Plan_tow from './../../../public/img/card-2.jpg'
+import Plan_three from './../../../public/img/card-2.jpg'
 
 import SideBar from './../../Sections/SideBar'
 import NavBar from './../../Sections/NavBar'
@@ -16,28 +19,15 @@ class Payment_Plan extends Component{
                         <div className="container-fluid">
                             <div className="row">
                                 <div className="col-md-4">
-                                    <br/>
-                                    <div className="card card-product" style={{minHeight: 410}}>
+                                    <div className="card card-product" >
                                         <div className="card-image" data-header-animation="false">
                                             <a>
-                                                <img src={require('./../../../public/img/card-2.jpg')} />
+                                                {/*<img src={require('./../../../public/img/card-2.jpg')} />*/}
+                                                <img className="img-responsive" src={Plan_one} alt="Imagen Plan One"/>
                                             </a>
                                         </div>
                                         <div className="card-content">
-                                            <div className="card-actions">
-                                                <button type="button" className="btn btn-danger btn-simple fix-broken-card">
-                                                    <i className="material-icons">build</i> Fix Header!
-                                                </button>
-                                                <button type="button" className="btn btn-default btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="View">
-                                                    <i className="material-icons">art_track</i>
-                                                </button>
-                                                <button type="button" className="btn btn-success btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Edit">
-                                                    <i className="material-icons">edit</i>
-                                                </button>
-                                                <button type="button" className="btn btn-danger btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Remove">
-                                                    <i className="material-icons">close</i>
-                                                </button>
-                                            </div>
+
                                             <h4 className="card-title">
                                                 <a> Plan Xs</a>
                                             </h4>
@@ -51,34 +41,21 @@ class Payment_Plan extends Component{
                                             </div>
                                             <div className="stats pull-right">
                                                 {/* <p className="category"><i className="material-icons">place</i> Rio de Janero, Brasil</p> */}
-                                                <button className="btn btn-default"><i className="fa fa-credit-card"></i> Pagar mi Plan</button>
+                                                <button className="btn btn-login"><i className="fa fa-credit-card"></i> Pagar mi Plan</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <br/>
-                                    <div className="card card-product" style={{minHeight: 410}}>
+                                    <div className="card card-product" >
                                         <div className="card-image" data-header-animation="false">
                                             <a>
-                                                <img src={require('./../../../public/img/card-2.jpg')} />
+                                                {/*<img src={require('./../../../public/img/card-2.jpg')} />*/}
+                                                <img className="img-responsive" src={Plan_tow} alt="Imagen del plan 2 "/>
                                             </a>
                                         </div>
                                         <div className="card-content">
-                                            <div className="card-actions">
-                                                <button type="button" className="btn btn-danger btn-simple fix-broken-card">
-                                                    <i className="material-icons">build</i> Fix Header!
-                                                </button>
-                                                <button type="button" className="btn btn-default btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="View">
-                                                    <i className="material-icons">art_track</i>
-                                                </button>
-                                                <button type="button" className="btn btn-success btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Edit">
-                                                    <i className="material-icons">edit</i>
-                                                </button>
-                                                <button type="button" className="btn btn-danger btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Remove">
-                                                    <i className="material-icons">close</i>
-                                                </button>
-                                            </div>
+
                                             <h4 className="card-title">
                                                 <a> Plan Xl</a>
                                             </h4>
@@ -92,34 +69,20 @@ class Payment_Plan extends Component{
                                             </div>
                                             <div className="stats pull-right">
                                                 {/* <p className="category"><i className="material-icons">place</i> Rio de Janero, Brasil</p> */}
-                                                <button className="btn btn-default"><i className="fa fa-credit-card"></i> Pagar mi Plan</button>
+                                                <button className="btn btn-login"><i className="fa fa-credit-card"></i> Pagar mi Plan</button>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
-                                    <br/>
-                                    <div className="card card-product" style={{minHeight: 410}}>
+                                    <div className="card card-product">
                                         <div className="card-image" data-header-animation="false">
                                             <a>
-                                                <img src={require('./../../../public/img/card-2.jpg')} />
+                                                {/*<img src={require('./../../../public/img/card-2.jpg')} />*/}
+                                                <img className="img-responsive" src={Plan_three} alt="imagen del Plan three"/>
                                             </a>
                                         </div>
                                         <div className="card-content">
-                                            <div className="card-actions">
-                                                <button type="button" className="btn btn-danger btn-simple fix-broken-card">
-                                                    <i className="material-icons">build</i> Fix Header!
-                                                </button>
-                                                <button type="button" className="btn btn-default btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="View">
-                                                    <i className="material-icons">art_track</i>
-                                                </button>
-                                                <button type="button" className="btn btn-success btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Edit">
-                                                    <i className="material-icons">edit</i>
-                                                </button>
-                                                <button type="button" className="btn btn-danger btn-simple" rel="tooltip" data-placement="bottom" title="" data-original-title="Remove">
-                                                    <i className="material-icons">close</i>
-                                                </button>
-                                            </div>
                                             <h4 className="card-title">
                                                 <a>Plan All</a>
                                             </h4>
@@ -133,7 +96,7 @@ class Payment_Plan extends Component{
                                             </div>
                                             <div className="stats pull-right">
                                                 {/* <p className="category"><i className="material-icons">place</i> Rio de Janero, Brasil</p> */}
-                                                <button className="btn btn-default"><i className="fa fa-credit-card"></i> Pagar mi Plan
+                                                <button className="btn btn-login"><i className="fa fa-credit-card"></i> Pagar mi Plan
                                                 </button>
                                             </div>
                                         </div>

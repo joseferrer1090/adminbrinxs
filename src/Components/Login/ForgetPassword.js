@@ -26,11 +26,11 @@ class ForgetPassword extends Component {
                                 <div className="row">
                                     <div className="col-md-4 col-sm-6 col-md-offset-4 col-sm-offset-3">
                                         <form action="#" method="#">
+                                            <div className="space-down"></div>
                                             <div className="card card-login">
-                                                <div className="card-header text-center">
-                                                </div>
                                                 <div className="card-content">
                                                     <h5 className="text-center">Recuperar Contraseña</h5>
+                                                    <div className="space-down"></div>
                                                     <div className="input-group">
                                                         <span className="input-group-addon">
                                                             <i className="fa fa-user"></i>
@@ -49,16 +49,10 @@ class ForgetPassword extends Component {
                                                             <input type="email" className="form-control"/>
                                                         </div>
                                                     </div>
-
+                                                    <div className="space-down"></div>
                                                     <div className="text-center">
-                                                        <button type="submit" className="btn btn-success">Recupear Contraseña <i className="fa fa-sign-out"></i>
+                                                        <button type="submit" className="btn btn-login">Recupear Contraseña <i className="fa fa-sign-out"></i>
                                                         </button>
-                                                        <p>
-                                                            <a href="#">
-
-                                                            </a>
-                                                        </p>
-
                                                     </div>
                                                 </div>
                                             </div>

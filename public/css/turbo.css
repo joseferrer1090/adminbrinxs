@@ -7031,7 +7031,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
 a {
   color: #2196F3; }
   a:hover, a:focus {
-    color: #FFFFFF;
+    color: #8DC63F;
     text-decoration: none; }
   a.text-info:hover, a.text-info:focus {
     color: #0398db;
@@ -9019,7 +9019,7 @@ fieldset[disabled] .checkbox, fieldset[disabled] .checkbox input[type=checkbox],
   font-size: 30px;
   padding: 15px 0; }
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-  background-color: #2196F3;
+  background-color: #76d03a !important;
   color: #FFFFFF;
   box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(33, 150, 243, 0.4); }
 .nav-pills:not(.nav-pills-icons) > li > a {
@@ -12708,5 +12708,11 @@ footer {
   .img-logo{ width: 75%;}
   .img-login-center{  margin-left: 490px; !important;  width: 15%;}
   .btn-login{background: #76d03a !important;}
-
 /*# sourceMappingURL=turbo.css.map */
+
+
+/* Space for enter */
+.space-down{
+  margin-bottom: 30px !important;
+}
+/* End */

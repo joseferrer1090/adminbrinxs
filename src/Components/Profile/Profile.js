@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 import SideBar from './../../Sections/SideBar'
 import NavBar from './../../Sections/NavBar'
 import Footer from './../../Sections/Footer'
+import img_man from './../../../public/img/faces/man.svg'
 
 class Profile extends Component {
     render(){
@@ -20,21 +21,21 @@ class Profile extends Component {
 
                                 <div className="card-content">
 
-                                    <h3>Administrador Brinxs</h3>
+                                    <h3>Perfil de usuario</h3>
                                     <hr/>
 
                                     <div role="tabpanel">
                                         <ul className="nav nav-pills">
                                             <li className="active"><a href="#profile11" aria-controls="profile11" role="tab" data-toggle="tab">Perfil</a>
                                             </li>
-                                            <li><a href="#activities11" aria-controls="messages11" role="tab" data-toggle="tab">Actividades</a>
+                                            <li><a href="#activities11" aria-controls="messages11" role="tab" data-toggle="tab">Actividades Recientes</a>
                                             </li>
                                             <li><a href="#settings11" aria-controls="settings11" role="tab" data-toggle="tab">Ajustes</a>
                                             </li>
                                         </ul>
                                         <div className="tab-content">
                                             <div role="tabpanel" className="tab-pane active" id="profile11">
-                                                <p align="justify">Morbi mattis ullamcorper velit. Etiam rhoncus. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Cras id dui. Curabitur turpis..Morbi mattis ullamcorper velit. Etiam rhoncus. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Cras id dui. Curabitur turpis..</p>
+                                                <p>Morbi mattis ullamcorper velit. Etiam rhoncus. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Cras id dui. Curabitur turpis..Morbi mattis ullamcorper velit. Etiam rhoncus. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Cras id dui. Curabitur turpis..</p>
                                                 <div className="row">
                                                     <div className="col-sm-6">
                                                         <div className="p-15">
@@ -130,55 +131,7 @@ class Profile extends Component {
                                             <div role="tabpanel" className="tab-pane" id="settings11">
                                                 <div className="widget p-25">
                                                     <div className="widget-body">
-                                                        <div className="select">
-                                                            <select className="form-control">
-                                                                <option>Select an Option</option>
-                                                                <option>Option 1</option>
-                                                                <option>Option 2</option>
-                                                                <option>Option 3</option>
-                                                                <option>Option 4</option>
-                                                                <option>Option 5</option>
-                                                            </select>
-                                                        </div>
-                                                        <div className="select m-t-15">
-                                                            <select className="form-control">
-                                                                <option>Select an Option</option>
-                                                                <option>Option 1</option>
-                                                                <option>Option 2</option>
-                                                                <option>Option 3</option>
-                                                                <option>Option 4</option>
-                                                                <option>Option 5</option>
-                                                            </select>
-                                                        </div>
-                                                        <div className="toggle-switch toggle-switch-demo m-t-30" data-ts-color="pink">
-                                                            <input id="ts11" type="checkbox" hidden="hidden" />
-                                                            <label htmlFor="ts11" className="ts-helper" />
-                                                            <label htmlFor="ts11" className="ts-label m-l-10">Toggle Settings One</label>
-                                                        </div>
-                                                        <div className="toggle-switch toggle-switch-demo m-t-30" data-ts-color="purple">
-                                                            <input id="ts22" type="checkbox" hidden="hidden" />
-                                                            <label htmlFor="ts22" className="ts-helper" />
-                                                            <label htmlFor="ts22" className="ts-label m-l-10">Toggle Settings Two</label>
-                                                        </div>
-                                                        <div className="checkbox m-b-15 m-t-30">
-                                                            <label>
-                                                                <input type="checkbox" defaultValue /><i className="input-helper f-10" />Settings option 1</label>
-                                                        </div>
-                                                        <div className="checkbox m-b-15 m-t-10">
-                                                            <label>
-                                                                <input type="checkbox" defaultValue /><i className="input-helper f-10" />Settings option 2</label>
-                                                        </div>
-                                                        <div className="m-t-30">
-                                                            <label className="radio radio-inline m-r-20">
-                                                                <input type="radio" name="inlineRadioOptions" defaultValue="option1" />
-                                                                <i className="input-helper f-10" />1</label>
-                                                            <label className="radio radio-inline m-r-20">
-                                                                <input type="radio" name="inlineRadioOptions" defaultValue="option2" />
-                                                                <i className="input-helper f-10" />2</label>
-                                                            <label className="radio radio-inline m-r-20">
-                                                                <input type="radio" name="inlineRadioOptions" defaultValue="option3" />
-                                                                <i className="input-helper f-10" />3</label>
-                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -192,13 +145,13 @@ class Profile extends Component {
                             <div className="card card-profile">
                                 <div className="card-avatar">
                                     <a>
-                                        <img className="img" src="../../img/faces/man.svg" />
+                                        <img className="img" src={img_man}/>
                                     </a>
                                 </div>
                                 <div className="card-content">
                                     <h6 className="category text-gray">Administrador / Plataforma Brinxs</h6>
                                     <h4 className="card-title">Administrador</h4>
-                                    <p align="justify">
+                                    <p>
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid atque beatae blanditiis dicta, doloremque error esse exercitationem maxime natus nisi perferendis saepe sapiente, similique sit suscipit veritatis voluptas voluptatum?
                                     </p>
                                     <a className="btn btn-danger btn-round">
