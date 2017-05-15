@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {Link} from 'react-router-dom'
 
 class Login extends Component {
     render(){
@@ -91,9 +92,9 @@ class Login extends Component {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#ForgetPassword">
+                                            <Link to={'/Admin/ForgetPassword'}>
                                                 Recuperar Contraseña
-                                            </a>
+                                            </Link>
                                         </li>
                                     </ul>
                                 </nav>

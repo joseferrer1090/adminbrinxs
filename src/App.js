@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import {Link, Route, BrowserRouter, HashRouter} from 'react-router-dom'
-
 import {Router, Switch} from 'react-router'
+
+
 import Login from './Components/Login/Login'
 import ForgetPassword from './Components/Login/ForgetPassword'
 import Home from './Components/Home/Home'
@@ -14,31 +15,19 @@ import Documentation from './Components/Documentation/Documentation'
 import CalendarActivity from './Components/CalendarActivity/CalendarActivity'
 
 class App extends Component {
-
     render(){
         return(
-
             <HashRouter>
-
                 <div>
-                    <Route exact path="/" component={Login}/>
-                    <Route exact path="/ForgetPassword" component={ForgetPassword}/>
-                    <Route exact path="/Home" component={Home}/>
-                    <Route exact path="/Profile" component={Profile}/>
-                    <Route exact path="/Payment_Plan" component={Payment_Plan}/>
-                    <Route exact path="/Help_Faq" component={Help_Faq}/>
-                    <Route exact path="/Lessons" component={Lessons}/>
-                    <Route exact path="/Activities" component={Activities}/>
-                    <Route exact path="/Documentation" component={Documentation}/>
-                    <Route exact path="/Calendar" component={CalendarActivity}/>
+                    <Route exact path="/Admin/Login" component={Login}/>
+                    <Route exact path="/Admin/ForgetPassword" component={ForgetPassword}/>
+                    <Route exact path="/Admin/Home" component={Home}/>
+                    <Route exact path="/Admin/Profile/Profile" component={Profile}/>
+                    <Route exact path="/Admin/Payment/Payment_Plan" component={Payment_Plan}/>
+                    <Route exact path="/Admin/Help/Help_Faq" component={Help_Faq}/>
                 </div>
-
             </HashRouter>
-
-
         )
     }
-
 }
-
 export default App;

@@ -119,7 +119,7 @@ class SideBar extends Component {
                                 </div>
                             </li>
                             <li>
-                                <Link to="/Calendar">
+                                <Link to={'/Calendar'}>
                                     <i className="material-icons icons-white">date_range</i>
                                     <p className="icons-white">Calendario
                                     </p>
