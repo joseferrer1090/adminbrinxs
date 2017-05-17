@@ -1,0 +1,167 @@
+/* NavBar de Brinxs */
+.navbar-default{
+    background: #FFF !important;
+    border: none;
+    -webkit-box-shadow: 0 0 3px rgba(0,0,0,.10);
+    -moz-box-shadow: 0 0 3px rgba(0,0,0,.10);
+    -ms-box-shadow: 0 0 3px rgba(0,0,0,.10);
+    box-shadow: 0 0 3px rgba(0,0,0,.10);
+    margin: 0;
+    z-index: 999999;
+    margin-bottom: 100px;
+}
+.navbar-default li{
+    margin:  0 15px;
+}
+.navbar-brand{
+    height: auto;
+    padding: 20px 15px 0;
+    line-height: 80px;
+}
+.navbar-brand img{
+    max-width: 125px;
+}
+.navbar-default .navbar-nav li a,
+footer li a{
+    font-size: 13px;
+    line-height: 80px;
+    color: #777777;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 0;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    transition: all .5s;
+}
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+footer li a:hover,
+footer li a:focus{
+    color: #0188f4;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover{
+    color: #0188f4;
+    background-color: transparent;
+}
+.WebProduct-SubTitle{
+    color: #777777;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    /*background: url(http://placehold.it/1280x720) center center no-repeat;*/
+    background-size: cover;
+    color: #FFF;
+    position: relative;
+}
+.banner2{
+    width: 100%;
+    height: 34.9vh;
+    /*background: url(http://placehold.it/1280x720) center center no-repeat;*/
+    background:#00a99d;
+    background-size: cover;
+    /*color: #00a99d;*/
+    position: inherit;
+}
+.banner .content{
+    max-width: 800px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.banner h1{
+    font-size: 54px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.banner h1 span{
+    font-size: 90px;
+    display: block;
+}
+.banner p{
+    color: #ffffff;
+}
+.p20{
+    padding: 20px;
+}
+.p10{
+    padding: 10px;
+}
+.pbt80{
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+.space_down{
+    margin-top: 20px;
+}
+.space_right{
+    margin-left: -15px;
+}
+.space_text{
+    margin-bottom: 30px;
+}
+footer{
+    background: #8DC63F;
+}
+footer img{
+    max-width: 200px!important;
+}
+footer .list-inline{
+    margin: 30px 0;
+}
+footer ul li{
+    padding: 0!important;
+    margin: 0 10px;
+}
+footer li a{
+    line-height: 30px;
+    color: #555555;
+}
+footer li.social{
+    display: block;
+    padding: 0;
+}
+footer .social ul{
+    margin: 20px auto;
+}
+footer li.social a .fa{
+    width: 30px;
+    line-height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    background: #363636;
+}
+.flex-container {
+
+    display: flex;
+
+}
+.column {
+    flex-direction: column;
+}
+.section {
+    height: calc(100vh - 70px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.back_xs{
+    width: 100%;
+    height: 100%;
+    background-image: url("../image/fondo_blanco-09-09.svg");
+    background-color: #a9e9ff;
+
+
+}
+/* End */
